@@ -1,0 +1,33 @@
+.service-item{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    background: #ffffff;
+    box-shadow:  #ffdde3 0px 0px 20px 0px;;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.service-item .icon{
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: rgb(244, 237, 239);
+    border: none;
+}
+
+.service-item .icon i{
+    color: rgb(255, 14, 171);
+    font-size: 1.8rem;
+}
+
+.service-name{
+    text-align: center;
+}
